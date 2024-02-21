@@ -66,7 +66,7 @@ To evaluate the model and generate classification scores for a set of images, fo
 
 Organize Your Images: Place the images in a single folder. Supported formats include PNG, JPG, JPEG, BMP, and TIFF.
 
-Run the Evaluation Script: Execute the script by providing the path to the images folder and the trained model file.
+Run the Evaluation Script: Execute the script by providing the path to the images folder and the trained model file. The finalmodel.pth is to be found in the output folder. 
 
 ```sh
 python evaluate_emonet.py /path/to/images/folder /path/to/trained/finalmodel.pth
