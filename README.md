@@ -1,6 +1,6 @@
 # emoNet: Emotion Recognition from Images
 
-Welcome to the GitHub repository for emoNet, a cutting-edge deep learning model designed for the task of emotion recognition from images. This model employs advanced image processing techniques and a neural network architecture to classify images into emotion categories such as happiness, sadness, anger, etc. Below you'll find complete instructions on preparing your dataset, training the emoNet model, and evaluating its performance.
+Welcome to the GitHub repository for emoNet, a deep learning model designed for the task of emotion recognition from images. This model employs advanced image processing techniques and a neural network architecture to classify images into emotion categories such as happiness, sadness, anger, etc. Below you'll find complete instructions on preparing your dataset, training the emoNet model, and evaluating its performance.
 
 ## Prerequisites
 
