@@ -62,17 +62,19 @@ python train_emonet.py --model model/emonet.pth --plot plots/training_plot.png
 
 ## Model Evaluation
 
-To evaluate the effectiveness of the model and assign classification metrics to a new set of images, proceed with the steps detailed below:
+To evaluate the model and generate classification scores for a set of images, follow these steps:
 
-1. **Organize Your Data:** Position the evaluation images in a distinct catalog. Acceptable formats comprise PNG, JPG, JPEG, BMP, and TIFF.
+Organize Your Images: Place the images in a single folder. Supported formats include PNG, JPG, JPEG, BMP, and TIFF.
 
-2. **Facilitate the Analysis Script:** Operationalize the file by delineating the data's gift of locale in addition to the box storing the elevation of enlightenment.
+Run the Evaluation Script: Execute the script by providing the path to the images folder and the trained model file.
 
 ```sh
 python evaluate_emonet.py /path/to/images/folder /path/to/trained/finalmodel.pth
 ```
 
-3. **Reflect on the Record:** Residually, a paper encoded in the semblance of a CSV file will be chronicled within the source's gallery, this register bequeathed with the readings under the insight of 'classification_scores.csv' will incorporate the name and chronicle of each portraiture vis-à-vis the proportioned authorizations for the suggested emotional limitations.
+Review the Output: The script will save the classification scores in a CSV file named classification_scores.csv within the images folder. The CSV file includes the filepath of each image and the classification scores for each emotion category.
+
+
 
 
 
